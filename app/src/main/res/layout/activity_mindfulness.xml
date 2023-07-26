@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    tools:context=".Mindfulness">
+    
+
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="197dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:text="Meditation"
+        android:textColor="#959C27B0"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/yt1"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="592dp"
+        android:text="youtube link"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/TV2"
+        android:layout_width="197dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="232dp"
+        android:text="Exercise"
+        android:textColor="#959C27B0"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/yt2"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="384dp"
+        android:text="youtube link"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/TV3"
+        android:layout_width="197dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="444dp"
+        android:text="Coding"
+        android:textColor="#959C27B0"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/yt3"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="180dp"
+        android:text="youtube link"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trial">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Trial">
+        <activity
+            android:name=".Mindfulness"
+            android:exported="true"
+            android:parentActivityName=".options" />
+        <activity
+            android:name=".todo"
+            android:exported="true"
+            android:parentActivityName=".options" />
+        <activity
+            android:name=".thought_dump"
+            android:exported="true"
+            android:parentActivityName=".options" />
+        <activity
+            android:name=".options"
+            android:exported="true"
+            android:parentActivityName=".secondactivity" />
+        <activity
+            android:name=".secondactivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
